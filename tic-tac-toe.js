@@ -133,6 +133,9 @@ class TicTacToe extends LitElement {
                 text-align: center;
                 vertical-align: middle;
             }
+            :host([disabled]) {
+                opacity: 0.5;
+            }
             :host([disabled]) .cell {
                 cursor: not-allowed;
             }
