@@ -1,5 +1,6 @@
 {
     "imports": {
-        "lit-element": "https://esm.sh/lit-element"
+        "lit-element": "https://esm.sh/lit-element",
+        "webp": "https://unpkg.com/@jsquash/webp@1.2.0/index.js?module"
     }
 }
